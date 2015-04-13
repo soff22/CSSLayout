@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Nav List</title>
+<style>
+
+ul {
+list-style-type:none; 
+}
+
+ul li a{
+text-decoration:none;
+color:black
+}
+
+ul li ul li a{
+text-decoration:none;
+color:grey;
+font-weight:bold
+}
+
+ul > li > a:hover {
+text-decoration: underline;
+}
+
+ul li {
+color:black
+}
+
+ul > li > ul {
+display:none;
+position: absolute;
+padding-left:15px; 
+color:#CECEB4;
+font-weight:bold
+}
+
+ul > li:hover > ul {
+display:block
+}
+
+li.main-menu {
+padding-top: 80px
+}
+
+ul.subsub {
+padding-left:90px
+}
+
+</style>
+	
+</head>
+<body>
+    
+        <div>
+            <ul>
+                <li><a href="#" class="main">List Item</a>
+                 <ul class="sub">
+				 <li><a href="#" class="selected">Sublist Item</a>
+				 <ul class="subsub">
+				 <li><a href="#">SubSublist</a></li>
+				 <li><a href="#">SubSublist</a></li>
+				 <li><a href="#">SubSublist</a></li>
+				 </ul>
+				 </li>
+				 <li><a href="#">Sublist Item</a></li>
+				 <li><a href="#">Sublist Item</a></li>
+				 <li ><a href="#">Sublist Item</a></li>
+				 </ul>		
+                </li>
+                <li class="main-menu">
+                    <a href="#">List Item</a>
+                </li>
+				<li>
+                    <a href="#">List Item</a>
+                </li>
+				<li>
+                    <a href="#">List Item</a>
+                </li>
+                
+            </ul>
+		</div>
+        
+</body>
+</html>

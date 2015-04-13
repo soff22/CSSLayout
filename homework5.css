@@ -1,0 +1,75 @@
+/* CSS Document */
+
+
+body {
+font-family:Courier New, sans-serif, Arial;
+}
+
+fieldset{
+text-align: center;
+font-family: Arial;
+font-weight:bold;
+width: 350px;
+height:180px;
+border: 2px solid grey;
+display:inline-block;
+margin-left:1px;
+margin-right:1px;
+}
+
+.menu {
+text-align:center;
+font-family: Arial;
+font-weight:bold
+}
+
+.total {
+border:2px solid grey;
+width: 770px;
+height:600px;
+}
+
+.range {
+width:360px;
+float:right;
+font-weight:bold;
+margin:50px 2px 400px 0px;
+}
+
+input {
+width:300px;
+margin-left:5px;
+}
+
+hr {
+width:100%;
+color: 1 px solid grey;
+}
+
+legend {
+text-align:center
+}
+
+.pic  {
+float:left
+}
+
+.parameters {
+float:right;
+padding-right:20px;
+padding-top:20px;
+}
+
+img {
+float:left
+}
+
+.price {
+float:left;
+padding-left:10px;
+padding-bottom:5px;
+}
+
+.intel {
+padding-bottom: 10px
+}

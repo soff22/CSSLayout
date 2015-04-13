@@ -1,0 +1,78 @@
+/* CSS Document */
+
+body {
+color: #A4A4A4;
+background-color: #3B3B3B;
+width: 650px;
+padding-left: 30px;
+padding-right: 100px;
+margin: 0px;
+font: 13px/17px Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+width: 750px;
+height: 75px;
+font-family: Verdana;
+margin-bottom:none;
+}
+
+div {
+margin-top: 20px
+}
+
+form {
+background-color: img (gradient.png) 0 100% no repeat;
+}
+
+.button {
+background: url(go.png) no-repeat #3A3A3A;
+border-radius:20px;
+width: 60px;
+height:30 px;
+padding-left: 10px
+}
+
+img {
+width: 60px;
+height: 40px;
+float:left;
+padding-right:10px;
+}
+
+label {
+width: 177px;
+height: 44px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 20px;
+font-weight: bold;
+color: #fff;
+float: left;
+}
+
+form {
+display: block;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 20px;
+background-image: url(go.png);
+background-repeat: no-repeat;
+background-position: left top;
+padding-left: 100px;
+margin-top: 5px;
+}
+
+
+section {
+background-color: #3B3B3B;
+width: 750px;
+margin-top:none;
+}
+
+h1 {
+color: #FBD61A;
+font: 26px Georgia, serif;
+margin: 0px;
+padding-top:30px;
+padding-left: 0px;
+padding-bottom: 10px
+}
